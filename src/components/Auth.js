@@ -11,7 +11,7 @@ const Auth = () => {
           </div>
           <div className={classes.control}>
             <label htmlFor='password'>Password</label>
-            <input type='password' id='password' />
+            <input type='password' id='password' /> 
           </div>
           <button>Login</button>
         </form>
