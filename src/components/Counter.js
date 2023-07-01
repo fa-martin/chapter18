@@ -4,12 +4,15 @@ import {counterAction} from '../store/index';
 
 const Counter = () => {
   const dispatch = useDispatch(); // a function
+  
   const currectcounter = useSelector((state) => {
-    return state.counter;
+    return state.counter.counter;
   });
+  
   const currectToggle = useSelector((state) => {
-    return state.showCounter;
+    return state.counter.showCounter;
   });
+ 
   const toggleCounterHandler = () => {
     dispatch(counterAction.toggle());
   };
