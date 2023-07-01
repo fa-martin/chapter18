@@ -22,4 +22,4 @@ const counterStateSlice = createSlice({
         },
       });
 
-export default counterStateSlice;
+export default counterStateSlice.reducer;
